@@ -1,0 +1,10 @@
+
+
+-git status/ oque está acontecendo 
+-git add ./ adicionar qual quer arquivo 
+-git commit -m ""/ comentário 
+- git push origin + branch/ salva as mudanças no Git hub
+- git branch --all/ ele verifica todas as brench que agente tem na maquina
+-git checkout -b/ criar uma nova branch
+
+
