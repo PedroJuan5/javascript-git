@@ -1,0 +1,20 @@
+JavaScript:
+
+LET - e uma variável que pode alterar o valor 
+const - e uma constante
+
+typeof - saber o tipo da
+lenght - tamanho entre as aspas
+indexO      -     ele retorna a primeira posição na string
+lastIndexOf   -   ele retorna a ultima posição na string
+slice - ele corta um pedaço na string
+replace - ele corta e substitui qual quer coisa
+toUpperCase - deixa fonte da letra maiúscula no codigo
+toLowerCase -  deixa fonte da letra minúscula no código
+
+
+27-06-2024
+
+if - se
+else- se não
+else if - e se
