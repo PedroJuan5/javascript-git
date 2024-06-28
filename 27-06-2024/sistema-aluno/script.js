@@ -1,20 +1,34 @@
 console.log("Bem Vindo");
 const button = document.querySelector("button");
 const inputNota = document.querySelector("#nota");
+//criando uma funçaõ par criar o campo
+function clearForm(){
+    inputNota.value = "";
+}
 
 //criando uma função
 button.addEventListener("click", function(event){
     event.preventDefault();
-    console.log(inputNota.value);
+    const inputNotaValue = inputNota.value;
+    //console.log(inputNotaValue);
 
-    if (inputNota.value >=6){
+    //validação de formulario
+if(inputNotaValue === ''){
+   alert("campo obrigatorio");
+    return false;
+
+}
+
+//logica
+    if (inputNotaValue >=6){
         alert("aprovado");
 
-        }else{
+    }else{
             alert("reprovado");
-        
 
     }
+//chamando função limpar campo
+clearForm();
 
 });
 
