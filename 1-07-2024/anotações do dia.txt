@@ -1,0 +1,3 @@
+while - enquanto
+arrays - conjunto de coisas
+lenght - números de elementos 
